@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="With (15)" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-26T23:52:51" hostname="value-adminnoMacBook-Pro.local" time="0.001">
+  <properties/>
+  <testcase name="Return 45" classname="n001_n010.n001.multiples_of_3_or_5.SumMyTest$Describe_multiples3Or5$Context_with_15" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
