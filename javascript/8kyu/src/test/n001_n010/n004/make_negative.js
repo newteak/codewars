@@ -32,5 +32,11 @@ describe('Function makeNegative', () => {
         expect(-35).to.equal(makeNegative(-35));
       });
     });
+
+    context('With (-100)', () => {
+      it ('Return -100', () => {
+        expect(-100).to.equal(makeNegative(-100));
+      });
+    });
   });
 });
