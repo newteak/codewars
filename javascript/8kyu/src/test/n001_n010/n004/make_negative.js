@@ -21,4 +21,10 @@ describe('Function makeNegative', () => {
       expect(0).to.equal(makeNegative(0));
     });
   });
+
+  context('With (-35)', () => {
+    it ('Return 35', () => {
+      expect(35).to.equal(makeNegative(-35));
+    });
+  });
 });
