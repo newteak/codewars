@@ -15,4 +15,10 @@ describe('Function makeNegative', () => {
       expect(-100).to.equal(makeNegative(100));
     });
   });
+
+  context('With (0)', () => {
+    it ('Return 0', () => {
+      expect(0).to.equal(makeNegative(0));
+    });
+  });
 });
