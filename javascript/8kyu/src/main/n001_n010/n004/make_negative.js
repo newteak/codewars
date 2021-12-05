@@ -4,6 +4,7 @@
 *
 */
 const makeNegative = (num) => {
+  return -num;
 };
 
 export default makeNegative;
