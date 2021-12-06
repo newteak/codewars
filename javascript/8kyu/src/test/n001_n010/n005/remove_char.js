@@ -6,15 +6,27 @@ import removeChar from '../../../main/n001_n010/n005/remove_char.js';
 // [x] step1 - removeChar can remove first char
 // [x] step2 - removeChar can remove last char
 describe('Function removeChar', () => {
+  context(`With ('stone')`, () => {
+    it (`Return 'ton'`, () => {
+      expect('ton').to.equal(removeChar('stone'));
+    });
+  });
+
   context(`With ('char')`, () => {
     it (`Return 'ha'`, () => {
       expect('ha').to.equal(removeChar('char'));
     });
   });
 
-  context(`With ('har')`, () => {
+  context(`With ('hat')`, () => {
     it (`Return 'a'`, () => {
-      expect('a').to.equal(removeChar('har'));
+      expect('a').to.equal(removeChar('hat'));
+    });
+  });
+
+  context(`With ('hi')`, () => {
+    it (`Return ''`, () => {
+      expect('').to.equal(removeChar('hi'));
     });
   });
 });
