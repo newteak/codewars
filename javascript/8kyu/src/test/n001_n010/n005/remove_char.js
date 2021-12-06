@@ -6,11 +6,9 @@ import removeChar from '../../../main/n001_n010/n005/remove_char.js';
 // step1 - removeChar can remove first char
 // step2 - removeChar can remove last char
 describe('Function removeChar', () => {
-  context('Given number is more than 0 tests', () => {
-    context(`With ('char')`, () => {
-      it (`Return 'har'`, () => {
-        expect('har').to.equal(removeChar('char'));
-      });
+  context(`With ('char')`, () => {
+    it (`Return 'har'`, () => {
+      expect('har').to.equal(removeChar('char'));
     });
   });
 });
