@@ -7,14 +7,14 @@ import removeChar from '../../../main/n001_n010/n005/remove_char.js';
 // [ ] step2 - removeChar can remove last char
 describe('Function removeChar', () => {
   context(`With ('char')`, () => {
-    it (`Return 'har'`, () => {
-      expect('har').to.equal(removeChar('char'));
+    it (`Return 'ha'`, () => {
+      expect('ha').to.equal(removeChar('char'));
     });
   });
 
   context(`With ('har')`, () => {
-    it (`Return 'ar'`, () => {
-      expect('ar').to.equal(removeChar('har'));
+    it (`Return 'a'`, () => {
+      expect('a').to.equal(removeChar('har'));
     });
   });
 });
