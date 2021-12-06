@@ -11,4 +11,10 @@ describe('Function removeChar', () => {
       expect('har').to.equal(removeChar('char'));
     });
   });
+
+  context(`With ('har')`, () => {
+    it (`Return 'ar'`, () => {
+      expect('ar').to.equal(removeChar('har'));
+    });
+  });
 });
