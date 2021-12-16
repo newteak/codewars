@@ -8,6 +8,6 @@
 * @return {String} a "Yes" string for true, or a "No" string for false.
 *
 */
-const boolToWord = (bool) => 'Yes';
+const boolToWord = (bool) => bool ? 'Yes' : 'No';
 
 export default boolToWord;
