@@ -9,6 +9,6 @@
 * @return {String} prepeats the given string exactly n times.
 *
 */
-const repeatStr = (n, s) => s;
+const repeatStr = (n, s) => s.repeat(n);
 
 export default repeatStr;
