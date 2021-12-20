@@ -11,4 +11,10 @@ describe('Function repeatStr', () => {
       expect('I').to.equal(repeatStr(1, "I"));
     });
   });
+
+  context(`With (1, "ABC")`, () => {
+    it (`Return 'ABC'`, () => {
+      expect('ABC').to.equal(repeatStr(1, "ABC"));
+    });
+  });
 });
