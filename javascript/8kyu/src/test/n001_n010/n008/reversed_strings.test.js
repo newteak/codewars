@@ -9,4 +9,10 @@ describe('Function reversedString', () => {
       expect('h').to.equal(reversedString('h'));
     });
   });
+
+  context(`With ('he')`, () => {
+    it (`Return 'eh'`, () => {
+      expect('eh').to.equal(reversedString('he'));
+    });
+  });
 });
