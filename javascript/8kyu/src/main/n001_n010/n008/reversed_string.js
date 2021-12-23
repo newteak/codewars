@@ -8,6 +8,6 @@
 * @return {String} reversed string.
 *
 */
-const reversedString = (str) => str;
+const reversedString = (str) => [ ...str ].reverse().join('');
 
 export default reversedString;
