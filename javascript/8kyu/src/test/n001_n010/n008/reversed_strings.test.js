@@ -15,4 +15,16 @@ describe('Function reversedString', () => {
       expect('eh').to.equal(reversedString('he'));
     });
   });
+
+  context(`With ('he ')`, () => {
+    it (`Return ' eh'`, () => {
+      expect(' eh').to.equal(reversedString('he '));
+    });
+  });
+
+  context(`With ('magic')`, () => {
+    it (`Return 'cigam'`, () => {
+      expect('cigam').to.equal(reversedString('magic'));
+    });
+  });
 });
