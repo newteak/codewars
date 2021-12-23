@@ -10,12 +10,6 @@ describe('Function reversedString', () => {
     });
   });
 
-  context(`With ('he')`, () => {
-    it (`Return 'eh'`, () => {
-      expect('eh').to.equal(reversedString('he'));
-    });
-  });
-
   context(`With ('he ')`, () => {
     it (`Return ' eh'`, () => {
       expect(' eh').to.equal(reversedString('he '));
