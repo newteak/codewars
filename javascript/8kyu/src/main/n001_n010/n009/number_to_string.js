@@ -8,6 +8,6 @@
 * @return {String} string transformed from a number.
 *
 */
-const numberToString = (num) => num;
+const numberToString = (num) => '' + num;
 
 export default numberToString;
