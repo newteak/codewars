@@ -9,4 +9,16 @@ describe('Function numberToString', () => {
       expect('1').to.equal(numberToString(1));
     });
   });
+
+  context(`With (0)`, () => {
+    it (`Return '0'`, () => {
+      expect('0').to.equal(numberToString(0));
+    });
+  });
+
+  context(`With (-1)`, () => {
+    it (`Return '-1'`, () => {
+      expect('-1').to.equal(numberToString(-1));
+    });
+  });
 });
