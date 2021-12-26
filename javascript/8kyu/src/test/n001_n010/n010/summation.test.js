@@ -9,4 +9,10 @@ describe('Function summation', () => {
       expect(1).to.equal(summation(1));
     });
   });
+
+  context(`With (2)`, () => {
+    it (`Return 1 + 2`, () => {
+      expect(1 + 2).to.equal(summation(2));
+    });
+  });
 });
