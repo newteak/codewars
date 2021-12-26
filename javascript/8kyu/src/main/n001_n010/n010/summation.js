@@ -8,6 +8,6 @@
 * @return {Number} the summation of every number from 1 to num.
 *
 */
-const summation = (num) => [...Array(num).keys(), num].reduce((prev, curr) => prev + curr);
+const summation = (num) => [...Array(num).keys(), num].reduce((prev, curr) => prev + curr, 0);
 
 export default summation;
