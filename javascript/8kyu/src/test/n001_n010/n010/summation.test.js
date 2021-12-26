@@ -15,4 +15,10 @@ describe('Function summation', () => {
       expect(1 + 2).to.equal(summation(2));
     });
   });
+
+  context(`With (6)`, () => {
+    it(`Return 1 + 2 + 3 + 4 + 5 + 6`, () => {
+      expect(1 + 2 + 3 + 4 + 5 + 6).to.equal(summation(6));
+    });
+  });
 });
